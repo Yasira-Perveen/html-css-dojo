@@ -1,0 +1,52 @@
+.container{
+  font-family: roboto;
+  color: grey;
+  font-size: 15px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: lightgray;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-right:16px ;
+  width: 400px;
+  border-radius: 4px;
+}
+ 
+.vertical{
+    margin-bottom: 18px;
+    display:block;
+}
+.nested-vertical{
+  margin-left: 6px;
+  display: block;
+  font-weight: 700;
+  font-size: 18px;
+  color: black;
+}
+.horizontal{
+  display: inline-block;
+}
+.nested-horizontal-left{
+  display: inline-block;
+  width: 68%;
+}
+.nested-horizontal-right{
+   display: inline-block;
+   width:30%;
+   text-align: right;
+   font-weight: 400;
+   color: grey;
+   font-size: 14px;
+}
+img{
+  width: 55px;
+  height: 55px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+p{
+  font-weight: 400;
+  color: grey;
+  margin-top: 3px;
+  font-size: 16px;
+}
