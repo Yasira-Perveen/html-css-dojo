@@ -1,0 +1,65 @@
+.container{
+  display: flex;
+  width: 400px;
+  font-family: Roboto,Ariel;
+  line-height: 1.5;
+  color: black;
+}
+img{
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.tweet-contents{
+  margin-left: 10px;
+}
+.tweet-header{
+  display: flex;
+}
+.user-name{
+  font-weight: bold;
+}
+.user-handle{
+  color: rgb(84, 78, 78);
+  margin-left: 4PX;
+  font-weight: 450;
+}
+.tweet-body{
+  display: block;
+}
+.message{
+  margin-top: 1.5px;
+}
+p{
+  margin: 0;
+}
+.video-preview{
+        margin-top: 15px;
+        display:flex;
+        width: 350px;
+        height: 100px;
+        border: 1px solid lightgray;
+        overflow: hidden;
+        align-items: center;
+        border-radius: 20px;
+        
+
+      }
+      .thumbnail{
+        background-color: rgb(200, 199, 199);
+        width: 180px;
+        height: 100px;
+       
+      }
+      .video-details{
+        margin-left: 8px;
+        font-size: 16px;
+        font-weight: 470;
+        line-height: 1.5;
+      }
+      .video-host{
+        margin-bottom: 4px;
+        color:rgb(96, 92, 92)
+        
+      }
